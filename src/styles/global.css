@@ -1,0 +1,41 @@
+/* Global CSS */ 
+html, body {
+  overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Proxima Nova, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #291c14; */
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    background: linear-gradient(to right, #f9f9f9, #ffffff);
+    width: 100vw;
+    height: 100%;
+
+    background: url('../assets/wave.svg') no-repeat center bottom;
+    background-size: cover;
+    background-image: url('../assets/bg.jpeg');
+    
+}
+
+body::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6); /* Adjust transparency */
+  backdrop-filter: blur(5px); /* Optional: Adds a subtle blur */
+  z-index: -1;
+}
+  

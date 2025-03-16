@@ -1,0 +1,109 @@
+.uploadContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .uploadButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+  
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80vh;
+  background-color: #4CAF50;
+  /* padding: 20px; */
+  background-color: #f8f9fa;
+}
+
+.leftSection {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftSection img {
+  max-width: 80%;
+  height: auto;
+}
+
+.rightSection {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadContainer {
+  width: 80%;
+  height: 300px;
+  border: 2px dashed #007bff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  text-align: center;
+}
+
+.uploadContainer p {
+  margin: 10px 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.fileInput {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.uploadButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.uploadButton:hover {
+  background-color: #0056b3;
+}
+
+
+/* test */
+
+.container{
+  background-color: #4CAF50;
+  background-color: transparent;
+}
+
+
+.leftSection{
+  /* background-color: red; */
+}
+
+
+.leftSection img {
+  mix-blend-mode: multiply; /* Works best with white backgrounds */
+  filter: brightness(1.2) contrast(1.2);
+
+
+  /* mix-blend-mode: screen; Change from multiply to screen for better contrast */
+  /* filter: brightness(1) contrast(1.5) drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2)); */
+}

@@ -1,0 +1,16 @@
+@echo off
+echo Creating files and folders...
+
+mkdir src\components src\pages src\styles src\api
+
+echo import React from "react"; > src\components\Navbar.jsx
+echo import React from "react"; > src\components\ResumeUpload.jsx
+echo import React from "react"; > src\components\AnalysisResults.jsx
+echo import React from "react"; > src\pages\Home.jsx
+echo import React from "react"; > src\pages\Results.jsx
+echo /* Global CSS */ > src\styles\global.css
+echo // API Calls > src\api\resumeApi.js
+echo import React from "react"; > src\App.js
+echo import React from "react"; > src\index.js
+
+echo AI Resume Analyzer project files have been created successfully.
